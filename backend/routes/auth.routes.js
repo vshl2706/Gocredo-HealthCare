@@ -1,17 +1,15 @@
-import express from "express";
-import cors from "cors"
-import { login, logout, signup } from "../controllers/auth.controller.js";
+const express = require("express");
+const { signup, login, verifyOtp } = require("../controllers/authController");
 
 const router = express.Router();
-router.use(cors({
-    origin: 'http://localhost:5173',
-    credentials: true,
-  }));
 
+// Create Account (matching your form)
 router.post("/signup", signup);
 
+// Login
 router.post("/login", login);
 
-router.post("/logout", logout);
+// Optional MFA
+router.post("/verify-otp", verifyOtp);
 
-export default router;
+module.exports = router;
