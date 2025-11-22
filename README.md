@@ -26,3 +26,7 @@ The platform enables users to manage their wellness goals, receive personalized 
 - **Bcrypt.js:** library used for password hashing
 - **JWT:** For User Authentication
 
+### **Database:**
+- **MongoDB:** Document-oriented database for storing user information, messages, and chat groups.
+
+
