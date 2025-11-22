@@ -29,4 +29,15 @@ The platform enables users to manage their wellness goals, receive personalized 
 ### **Database:**
 - **MongoDB:** Document-oriented database for storing user information, messages, and chat groups.
 
+  ### **Prerequisites:**
+1. **Node.js** (latest stable version)
+2. **MongoDB** (local instance or cloud database, e.g., MongoDB Atlas)
+3. A package manager: **npm** or **yarn**
+
+### **Steps:**
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/SaumyaKesharwani/Chat_Application.git
+   cd Chat_Application
+
 
