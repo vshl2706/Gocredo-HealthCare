@@ -10,8 +10,18 @@ The platform enables users to manage their wellness goals, receive personalized 
 - **User Authentication:**  
   Secure user registration and login with password encryption using bcrypt and session management with JSON Web Tokens (JWT).
   
+ **Public Page:**
+ General health information
+ Privacy Policy
+ About the portal
 
--
+**Patient Profile Management**
+  View and update personal info
+  Fields: age, allergies, medications, chronic conditions
+
+
+
+
 ---
 ---
 ## **Technologies Used**
