@@ -9,7 +9,13 @@ The platform enables users to manage their wellness goals, receive personalized 
 
 - **User Authentication:**  
   Secure user registration and login with password encryption using bcrypt and session management with JSON Web Tokens (JWT).
-  
+  **Patient Goal Tracker**
+  Allows patients to:
+  Add daily logs (e.g., waterIntake, steps,hours of sleep)
+
+
+View progress summary
+
  **Public Page:**
  General health information
  Privacy Policy
