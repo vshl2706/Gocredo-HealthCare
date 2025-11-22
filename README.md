@@ -51,6 +51,15 @@ The platform enables users to manage their wellness goals, receive personalized 
 2. **MongoDB** (local instance or cloud database, e.g., MongoDB Atlas)
 3. A package manager: **npm** or **yarn**
 
+   ## **Setup and Installation**
+
+  Follow these steps to run the application locally:
+
+### **Prerequisites:**
+1. **Node.js** (latest stable version)
+2. **MongoDB** (local instance or cloud database, e.g., MongoDB Atlas)
+3. A package manager: **npm** or **yarn**
+
 ### **Steps:**
 1. **Clone the Repository:**  
    ```bash
