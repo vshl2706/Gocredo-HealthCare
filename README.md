@@ -37,6 +37,6 @@ The platform enables users to manage their wellness goals, receive personalized 
 ### **Steps:**
 1. **Clone the Repository:**  
    ```bash
-   git clone 
+   git clone https://github.com/vshl2706/Gocredo-HealthCare.git 
 
 
