@@ -1,18 +1,15 @@
-import mongoose from 'mongoose'
+import dotenv from "dotenv"
+import mongoose from "mongoose";
+dotenv.config({path:"../.env"});
 
-const connectToMongoDB=async()=>{
+//async function will return a object so be careful while handling the op 
+const ConnectDB=async function(){
     try {
-        mongoose.connect(process.env.MONGO_DB_URI,{
-            // useNewUrlParser:true,
-            // useUnifiedTopology:true,
-            // useCreateIndex:true,
-            // useFindAndModify:false
-        })
-        console.log("Connected to MongoDB")
+        await mongoose.connect(${process.env.MONGODB_URL}/${DB_NAME});
+        console.log("connection to the port ${process.env.Port} is successful")
     } catch (error) {
-        console.log(error)
+        console.log("Error encountered",error)
+        process.exit(1)
     }
-}
-
-export default connectToMongoDB
-
+};
+export default ConnectDB;
