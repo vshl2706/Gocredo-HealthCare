@@ -9,9 +9,44 @@ The platform enables users to manage their wellness goals, receive personalized 
 
 - **User Authentication:**  
   Secure user registration and login with password encryption using bcrypt and session management with JSON Web Tokens (JWT).
-  
+- **Patient Goal Tracker:**
+   Allows patients to:
+- **Add daily logs:**
+  (e.g., waterIntake, steps,hours of sleep)
+- **Secure Authentication (Patient & Provider)**
+   User registration & login
+    Password hashing (bcrypt)
+    JWT-based sessions with expiration(12 hours)
+    Role-based access control(Doctor(future),Patient,Admin)
+    Consent checkbox during registration
+    Action logging (e.g., login attempts, profile updates)
 
--
+
+- **Patient Dashboard**
+- Displays:
+  Wellness goals (steps, yoga, water intake, sleep hours)
+  Daily goal progress logging
+  Preventive care reminders (blood test, annual checkup, etc.)
+  “Health Tip of the Day” (also Motivational thoughts)
+
+
+
+
+
+ View progress summary
+
+- **Public Page:**
+ General health information
+ Privacy Policy
+ About the portal
+
+- **Patient Profile Management**
+  View and update personal info
+  Fields: age, allergies, medications, chronic conditions
+
+
+
+
 ---
 ---
 ## **Technologies Used**
@@ -34,9 +69,30 @@ The platform enables users to manage their wellness goals, receive personalized 
 2. **MongoDB** (local instance or cloud database, e.g., MongoDB Atlas)
 3. A package manager: **npm** or **yarn**
 
+   ## **Setup and Installation**
+
+  Follow these steps to run the application locally:
+
+### **Prerequisites:**
+1. **Node.js** (latest stable version)
+2. **MongoDB** (local instance or cloud database, e.g., MongoDB Atlas)
+3. A package manager: **npm** or **yarn**
+
 ### **Steps:**
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/vshl2706/Gocredo-HealthCare.git 
+   git clone https://github.com/vshl2706/Gocredo-HealthCare.git
+
+  ## **ScreenShots**
+![Homepage Screenshot](frontend/src/images/screenshot_homepage.png)
+
+
+![Login Page](frontend/src/images/screenshot_localhost.png)
+
+![Home Page1](frontend/src/images/screenshot_localhost%20(3).png)
+
+![Home Page1](frontend/src/images/screenshot_localhost%20(4).png)
+
+
 
 
