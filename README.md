@@ -37,7 +37,6 @@ The platform enables users to manage their wellness goals, receive personalized 
 ### **Steps:**
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/SaumyaKesharwani/Chat_Application.git
-   cd Chat_Application
+   git clone 
 
 
