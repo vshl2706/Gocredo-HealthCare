@@ -5,9 +5,9 @@ import connectToMongoDB from "./db.js"
 import path from "path";
 
 import authRoutes from "./routes/auth.routes.js";
-import messageRoutes from "./routes/message.routes.js";
+
 import userRoutes from "./routes/user.routes.js";
-import groupRoutes from "./routes/group.routes.js"
+
 
 import { app, server} from "./socket/socket.js";
 
@@ -23,9 +23,7 @@ const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use('/api/auth',authRoutes)
-app.use('/api/messages', messageRoutes)
 app.use('/api/users', userRoutes)
-app.use('/api/group', groupRoutes);
 
 const port=process.env.port || 5000 
 
@@ -37,3 +35,4 @@ server.listen(port,()=>{
     connectToMongoDB()
     console.log(`server is running on port: ${port}`)
 })
+
