@@ -13,6 +13,24 @@ The platform enables users to manage their wellness goals, receive personalized 
    Allows patients to:
 - **Add daily logs:**
   (e.g., waterIntake, steps,hours of sleep)
+- **Secure Authentication (Patient & Provider)**
+   User registration & login
+    Password hashing (bcrypt)
+    JWT-based sessions with expiration(12 hours)
+    Role-based access control(Doctor(future),Patient,Admin)
+    Consent checkbox during registration
+    Action logging (e.g., login attempts, profile updates)
+
+
+- **Patient Dashboard**
+- Displays:
+  Wellness goals (steps, yoga, water intake, sleep hours)
+  Daily goal progress logging
+  Preventive care reminders (blood test, annual checkup, etc.)
+  “Health Tip of the Day” (also Motivational thoughts)
+
+
+
 
 
  View progress summary
